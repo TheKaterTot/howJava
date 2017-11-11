@@ -11,10 +11,12 @@ public class Main {
         Employee employee = new Employee("Freddie", "Fluffbutt", 1);
         Animal cat = new Cat();
         Animal dog = new Dog();
+        SportyCar sporty = new SportyCar();
         System.out.println(person.getFullName());
         System.out.println(employee.getFullName());
         System.out.println(employee.getEmployeeID());
         sayHello(cat);
         sayHello(dog);
+        System.out.println(sporty.getInfo());
     }
 }
